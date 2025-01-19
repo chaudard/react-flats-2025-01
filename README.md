@@ -5,7 +5,7 @@ https://github.com/lewagon/react-redux-challenges/blob/master/02-Redux/01-React-
 React project using webpack
 
 - node : 20.16.0
-- react: ^19.0.0
+- react: 18
 - webpack: ^5.97.1
 
 
