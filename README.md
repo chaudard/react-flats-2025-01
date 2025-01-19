@@ -1,4 +1,7 @@
-# boilerplateReact
+# react-flats-2025-01
+
+https://github.com/lewagon/react-redux-challenges/blob/master/02-Redux/01-React-Advanced/README.md
+
 React project using webpack
 
 - node : 20.16.0
