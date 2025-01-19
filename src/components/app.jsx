@@ -1,5 +1,5 @@
 import React from "react";
-import GoogleMapReact from "./googleMapReact";
+import Map from "./map";
 import FlatList from "./flatList";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
                 <FlatList></FlatList>            
             </div>
             <div className="map-container">
-                <GoogleMapReact></GoogleMapReact>
+                <Map></Map>
             </div>
         </div>
     )
