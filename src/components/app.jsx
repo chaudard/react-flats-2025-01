@@ -1,9 +1,16 @@
 import React from "react";
+import GoogleMapReact from "./googleMapReact";
+import FlatList from "./flatList";
 
 const App = () => {
     return(
-        <div className="app">
-
+        <div>
+            <div className="flat-list">
+                <FlatList></FlatList>            
+            </div>
+            <div className="map-container">
+                <GoogleMapReact></GoogleMapReact>
+            </div>
         </div>
     )
 }
