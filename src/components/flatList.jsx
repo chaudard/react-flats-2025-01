@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import flats from "../../data/flats";
 
 class FlatList extends Component {
 
@@ -6,9 +7,17 @@ class FlatList extends Component {
         super(props);
     }
 
+    renderlist (flat) {
+        return(
+            <div className="card">{flat.id}</div>
+        )
+    }
+
     render () {
         return (
-            <div></div>
+            <div className="flat-list">
+                {flats.map(flat => this.renderlist(flat))}
+            </div>
         )
     }
 

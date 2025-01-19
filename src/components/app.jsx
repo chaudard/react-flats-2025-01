@@ -5,9 +5,7 @@ import FlatList from "./flatList";
 const App = () => {
     return(
         <div>
-            <div className="flat-list">
-                <FlatList></FlatList>            
-            </div>
+            <FlatList></FlatList>            
             <div className="map-container">
                 <Map></Map>
             </div>
