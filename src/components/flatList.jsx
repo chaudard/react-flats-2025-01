@@ -10,7 +10,7 @@ class FlatList extends Component {
 
     renderlist (flat) {
         return(
-            <Flat flat={flat} key={flat.id}></Flat>
+            <Flat flat={flat} key={flat.id} selectedFlatId={this.props.selectedFlatId} handleClick={this.props.handleClick}></Flat>
         )
     }
 
